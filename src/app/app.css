@@ -33,6 +33,30 @@ h1 {
   font-weight: bold;
 }
 
+.agregar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.agregar input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.agregar-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.agregar-btn:hover {
+  transform: scale(1.05);
+}
+
 .botones {
   display: flex;
   gap: 10px;
